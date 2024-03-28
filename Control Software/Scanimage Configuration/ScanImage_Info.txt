@@ -1,0 +1,3 @@
+These files are what we are currently using to control the UCLA 2P Miniscope from within ScanImage
+
+You may need to modify the machine data file to support your specific application

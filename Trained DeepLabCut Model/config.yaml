@@ -1,0 +1,91 @@
+    # Project definitions (do not edit)
+Task: 2P_MiniScope_DLC
+scorer: Blake
+date: Nov30
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: C:/Users/BAM70/Documents/GitHub/UCLA_2P_Miniscope/DeepLabCut Model
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\BAM70\Desktop\2P_MiniScope_DLC-Blake-2023-11-30\videos\WIN_20230901_10_42_07_Pro.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\BAM70\Desktop\2P_MiniScope_DLC-Blake-2023-11-30\videos\WIN_20230804_14_50_30_Pro.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\BAM70\Desktop\2P_MiniScope_DLC-Blake-2023-11-30\videos\t1_20230627.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\BAM70\Desktop\2P_MiniScope_DLC-Blake-2023-11-30\videos\WIN_20230601_16_00_58_Pro.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\BAM70\Desktop\2P_MiniScope_DLC-Blake-2023-11-30\videos\WIN_20230505_11_44_00_Pro.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\BAM70\Desktop\2P_MiniScope_DLC-Blake-2023-11-30\videos\WIN_20230428_13_14_15_Pro.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\BAM70\Desktop\2P_MiniScope_DLC-Blake-2023-11-30\videos\WIN_20230428_13_33_09_Pro.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\BAM70\Desktop\2P_MiniScope_DLC-Blake-2023-11-30\videos\WIN_20230428_15_16_03_Pro.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\BAM70\Desktop\2P_MiniScope_DLC-Blake-2023-11-30\videos\12mins.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\BAM70\Desktop\2P_MiniScope_DLC-Blake-2023-11-30\videos\23mins.mp4:
+    crop: 0, 1920, 0, 1080
+bodyparts:
+- bodypart1
+- bodypart2
+- bodypart3
+- objectA
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - bodypart1
+  - bodypart2
+- - objectA
+  - bodypart3
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

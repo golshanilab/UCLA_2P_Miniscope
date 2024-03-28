@@ -1,0 +1,8 @@
+If you’re planning on controlling the tunable lens from within MATLAB, run the “ETL_Control” script alongside the compatible NI control electronics. 
+
+This GUI will enable online control of focal position during experiments. 
+
+The I2C Hardware support library is also required and can be found here:
+https://www.mathworks.com/hardware-support/i2c-interface.html
+
+In the future, i2c control will be integrated into a custom python GUI. 

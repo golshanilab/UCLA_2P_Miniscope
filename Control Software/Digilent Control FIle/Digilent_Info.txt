@@ -1,0 +1,8 @@
+Please load the "UCLA_2P_Miniscope.dwf3wavegen" file using the Digilent Waveforms software. 
+
+This will give you the ability to control critical functionality of the microscope including
+1. X drive waveform
+2. Clock signals for MEMS amplifier
+3. Generation of line clock pulse for sync w/ scanimage 
+
+In the future, we will also implement the i2c functions to control the ETL
