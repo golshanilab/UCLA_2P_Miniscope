@@ -18,7 +18,7 @@ As well as additional information to support users in setting up these devices, 
   - ScanImage Machine Data Files and Configuration files
 <br>
 
-For additional information, please take a look at our bioRxiv paper [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+For additional information, please take a look at our bioRxiv paper [here](https://www.biorxiv.org/content/10.1101/2024.03.29.586663v1)
 
 
 <br>
