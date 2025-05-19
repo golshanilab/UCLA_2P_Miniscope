@@ -43,6 +43,9 @@ We also provide in the [Demo](https://ucla.box.com/s/3wto9k1oq8evrciismuwrfbsesp
   - Instructions For Use: <br>
 The demo section of this GitHub repo is intended to explain how to use the software through a concrete provided example. Any user can replace the example microscope imaging data and behavioral video, to reproduce the same sorts of outputs that are described in the manuscript.  
 <br>
+  - Small-Amplitude Striping Artifact: <br>
+Through our testing, we have noticed a reproducible, small-amplitude striping artifact that can be present in very low-light imaging conditions. We believe this to be due to capacitive coupling between the high voltage driving waveform (on the x-axis of the MEMS scanner specifically) and the small-amplitude SiPM signal currents that pass alongside the high voltage drive signal prior to transimpedance amplification. We have included a custom FFT signal filter and built a Fiji macro around it, to selectively remove this high frequency artifact from single frames or image stacks. These resources have been uploaded under Guides, Image Filtering as FFT_Filter.tif” and “Preprocess_Filter.ijm” respectively. Additionally, two images are included to demonstrate an example of the artifact in question and the results of the filter. The images included are mean intensity projections from a time course of 2746 frames prior to motion correction, to highlight the artifact. Small amounts of residual striping still exist after filtering, but the overall impact is greatly diminished. Of note, in parallel we have developed new wiring strategies that increase coaxial shielding to eliminate the striping altogether. Updated wiring diagrams will be included on this repository soon to eliminate the artifact entirely. 
+<br>
 Here are some fancy images that show off what the microscope is capable of!
 <br>
 This is a densely-labled CA1 expressing GCaMP7f.
